@@ -1,0 +1,89 @@
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+node_modules
+dist
+dist-ssr
+*.local
+
+# Editor directories and files
+.vscode/*
+!.vscode/extensions.json
+.idea
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+*.env
+
+# React App Ignored Files
+node_modules/
+build/
+.DS_Store
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+ 
+# Expo App Ignored Files (Assume the Expo app is in `expo-app/` subdirectory)
+expo-app/node_modules/
+expo-app/.expo/
+expo-app/.expo-shared/
+expo-app/dist/
+expo-app/web-build/
+expo-app/expo-env.d.ts
+expo-app/.expo-gitignore
+ 
+# Native (Specific to Expo Eject)
+expo-app/android/app/build/
+expo-app/android/.gradle/
+expo-app/android/.idea/
+expo-app/android/local.properties
+expo-app/android/gradle/wrapper/gradle-wrapper.jar
+expo-app/android/key.properties
+expo-app/android/app/debug.keystore
+expo-app/android/captures/
+expo-app/ios/Pods/
+expo-app/ios/Podfile.lock
+expo-app/ios/build/
+expo-app/ios/xcuserdata/
+expo-app/ios/*.xcworkspace/
+expo-app/ios/*.xcodeproj/project.xcworkspace/
+expo-app/ios/*.xcodeproj/xcuserdata/
+expo-app/ios/*.log
+expo-app/ios/.expo/
+ 
+# Debug and Logs
+expo-app/npm-debug.*
+expo-app/yarn-debug.*
+expo-app/yarn-error.*
+expo-app/*.log
+expo-app/.cache/
+expo-app/*.tmp
+ 
+# macOS and System Files
+expo-app/.DS_Store
+expo-app/*.pem
+expo-app/._*
+expo-app/.AppleDouble/
+expo-app/Thumbs.db
+ 
+# TypeScript
+expo-app/*.tsbuildinfo
+ 
+# Environment Files
+expo-app/.env*.local
+expo-app/.gitignore
+expo-app/expo-env.d.ts
+expo-app/.expo
+#digonsis recommended
+expo-app/android
+expo-app/ios

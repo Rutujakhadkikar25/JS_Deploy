@@ -1,0 +1,127 @@
+.camera-denied-container {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    background-color: #008080; /* Teal background color from screenshot */
+    font-family: Arial, sans-serif;
+  }
+  
+  .camera-denied-header {
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
+    padding: 20px 16px;
+    text-align: left;
+  }
+  
+  .camera-denied-card {
+    background-color: white;
+    border-radius: 30px 30px 0 0;
+    padding: 30px 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-grow: 1;
+  }
+  
+  .camera-icon-container {
+    margin: 30px 0;
+  }
+  
+  .camera-denied-title {
+    color: #FF3333;
+    font-size: 22px;
+    font-weight: bold;
+    margin-bottom: 16px;
+    text-align: center;
+  }
+  
+  .camera-denied-text {
+    color: #333333;
+    font-size: 16px;
+    text-align: center;
+    margin-bottom: 30px;
+    max-width: 280px;
+  }
+  
+  .camera-fix-steps {
+    align-self: flex-start;
+    width: 100%;
+    margin-bottom: 40px;
+  }
+  
+  .fix-step-title {
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: #333333;
+  }
+  
+  .fix-steps-list {
+    margin: 0;
+    padding-left: 25px;
+  }
+  
+  .fix-steps-list li {
+    margin-bottom: 8px;
+    color: #333333;
+  }
+  
+  .retry-button-container {
+    width: 100%;
+    padding: 0 10px;
+    margin-top: auto;
+  }
+  
+  .retry-button {
+    background-color: #008080;
+    color: white;
+    border: none;
+    border-radius: 30px;
+    padding: 15px;
+    font-size: 18px;
+    font-weight: bold;
+    width: 100%;
+    cursor: pointer;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+  }
+  
+  .retry-button:hover {
+    background-color: #006666;
+  }
+  
+  /* Responsive adjustments */
+  @media (min-width: 768px) {
+    .camera-denied-card {
+      width: 80%;
+      max-width: 500px;
+      margin: 0 auto;
+      border-radius: 30px;
+    }
+    
+    .camera-denied-text {
+      max-width: 400px;
+    }
+    
+    .retry-button-container {
+      width: 80%;
+      max-width: 300px;
+    }
+  }
+  
+  @media (max-height: 600px) {
+    .camera-icon-container {
+      margin: 15px 0;
+    }
+    
+    .camera-denied-title {
+      margin-bottom: 10px;
+    }
+    
+    .camera-denied-text {
+      margin-bottom: 15px;
+    }
+    
+    .camera-fix-steps {
+      margin-bottom: 20px;
+    }
+  }

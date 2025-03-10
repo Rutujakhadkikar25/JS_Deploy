@@ -1,0 +1,34 @@
+/* App.css or another CSS file */
+
+/* Import Google Font */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap');
+
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
+.custom-btn {
+  transition: all 0.3s ease;  /* Smooth transition for hover effects */
+}
+
+.custom-btn:hover {
+  transform: scale(1.05);  /* Scale up on hover */
+  background-color: #0056b3;  /* Change to darker blue on hover */
+  color: white;
+}
+
+.custom-btn:focus {
+  outline: none;
+}
+
+.btn-outline-danger:hover {
+  border-color: #dc3545;
+  background-color: #dc3545;
+  color: white;
+}
+
+.btn-outline-secondary:hover {
+  border-color: #6c757d;
+  background-color: #6c757d;
+  color: white;
+}

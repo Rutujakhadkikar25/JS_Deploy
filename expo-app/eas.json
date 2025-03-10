@@ -1,0 +1,28 @@
+{
+  "cli": {
+    "version": ">= 14.2.0",
+    "appVersionSource": "remote"
+  },
+  "build": {
+    "development": {
+      "developmentClient": true,
+      "distribution": "internal",
+      "env": {
+        "WEBVIEW_URI": "https://att-ems.devdolphins.com"
+      }
+      
+    },
+    "preview": {
+      "distribution": "internal",
+      "env": {
+        "WEBVIEW_URI": "https://att-ems.devdolphins.com"
+      }
+    },
+    "production": {
+      "autoIncrement": true
+    }
+  },
+  "submit": {
+    "production": {}
+  }
+}
